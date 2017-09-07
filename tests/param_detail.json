@@ -1,0 +1,45 @@
+{
+  "description": null,
+  "override": false,
+  "parameter_type": null,
+  "default_value": [],
+  "hidden_value?": false,
+  "hidden_value": "*****",
+  "omit": null,
+  "required": false,
+  "validator_type": null,
+  "validator_rule": null,
+  "merge_overrides": false,
+  "merge_default": false,
+  "avoid_duplicates": false,
+  "override_value_order": "fqdn\nhostgroup\nos\ndomain",
+  "created_at": "2014-11-17T22:45:01.589Z",
+  "updated_at": "2017-03-31T14:35:14.410Z",
+  "use_puppet_default": null,
+  "puppetclass_name": {
+    "id": 2,
+    "name": "sudo::allow",
+    "created_at": "2014-11-17T22:45:01.137Z",
+    "updated_at": "2014-11-17T22:45:01.137Z"
+  },
+  "parameter": "add_users",
+  "id": 1,
+  "puppetclass_id": 2,
+  "override_values_count": 0,
+  "environments": [
+    {
+      "id": 1,
+      "name": "production"
+    },
+    {
+      "id": 12,
+      "name": "dev"
+    }
+  ],
+  "puppetclass": {
+    "id": 2,
+    "name": "sudo::allow",
+    "module_name": "sudo"
+  },
+  "override_values": []
+}

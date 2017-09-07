@@ -1,0 +1,71 @@
+{
+  "total": 4,
+  "subtotal": 4,
+  "page": 1,
+  "per_page": 2,
+  "search": null,
+  "sort": {
+    "by": null,
+    "order": null
+  },
+  "results": [
+    {
+      "description": null,
+      "override": false,
+      "parameter_type": null,
+      "default_value": "${::foreman_proxy::plugin::abrt::params::abrt_send_log_file}",
+      "hidden_value?": false,
+      "hidden_value": "*****",
+      "omit": null,
+      "required": false,
+      "validator_type": null,
+      "validator_rule": null,
+      "merge_overrides": false,
+      "merge_default": false,
+      "avoid_duplicates": false,
+      "override_value_order": "fqdn\nhostgroup\nos\ndomain",
+      "created_at": "2015-10-27T13:02:50.783Z",
+      "updated_at": "2016-06-15T12:50:43.020Z",
+      "use_puppet_default": null,
+      "puppetclass_name": {
+        "id": 475,
+        "name": "foreman_proxy::plugin::abrt",
+        "created_at": "2015-10-27T13:02:46.377Z",
+        "updated_at": "2015-10-27T13:02:46.377Z"
+      },
+      "parameter": "abrt_send_log_file",
+      "id": 2257,
+      "puppetclass_id": 475,
+      "override_values_count": 0
+    },
+    {
+      "description": null,
+      "override": false,
+      "parameter_type": "string",
+      "default_value": "undef",
+      "hidden_value?": false,
+      "hidden_value": "*****",
+      "omit": null,
+      "required": false,
+      "validator_type": null,
+      "validator_rule": null,
+      "merge_overrides": false,
+      "merge_default": false,
+      "avoid_duplicates": false,
+      "override_value_order": "fqdn\nhostgroup\nos\ndomain",
+      "created_at": "2017-05-29T06:14:59.690Z",
+      "updated_at": "2017-05-29T06:14:59.690Z",
+      "use_puppet_default": null,
+      "puppetclass_name": {
+        "id": 435,
+        "name": "foreman::config::passenger",
+        "created_at": "2015-10-27T12:47:50.961Z",
+        "updated_at": "2015-10-27T12:47:50.961Z"
+      },
+      "parameter": "access_log_format",
+      "id": 4749,
+      "puppetclass_id": 435,
+      "override_values_count": 0
+    }
+  ]
+}

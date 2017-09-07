@@ -1,0 +1,71 @@
+{
+  "total": 4,
+  "subtotal": 4,
+  "page": 2,
+  "per_page": 2,
+  "search": null,
+  "sort": {
+    "by": null,
+    "order": null
+  },
+  "results": [
+    {
+      "description": null,
+      "override": false,
+      "parameter_type": null,
+      "default_value": "${puppet::params::additional_settings}",
+      "hidden_value?": false,
+      "hidden_value": "*****",
+      "omit": null,
+      "required": false,
+      "validator_type": null,
+      "validator_rule": null,
+      "merge_overrides": false,
+      "merge_default": false,
+      "avoid_duplicates": false,
+      "override_value_order": "fqdn\nhostgroup\nos\ndomain",
+      "created_at": "2015-10-27T09:48:48.326Z",
+      "updated_at": "2016-06-15T12:50:56.166Z",
+      "use_puppet_default": null,
+      "puppetclass_name": {
+        "id": 396,
+        "name": "puppet",
+        "created_at": "2015-10-27T09:48:44.746Z",
+        "updated_at": "2015-10-27T09:48:44.746Z"
+      },
+      "parameter": "additional_settings",
+      "id": 1942,
+      "puppetclass_id": 396,
+      "override_values_count": 0
+    },
+    {
+      "description": null,
+      "override": false,
+      "parameter_type": null,
+      "default_value": "${::puppet::server_additional_settings}",
+      "hidden_value?": false,
+      "hidden_value": "*****",
+      "omit": null,
+      "required": false,
+      "validator_type": null,
+      "validator_rule": null,
+      "merge_overrides": false,
+      "merge_default": false,
+      "avoid_duplicates": false,
+      "override_value_order": "fqdn\nhostgroup\nos\ndomain",
+      "created_at": "2016-06-11T07:01:41.385Z",
+      "updated_at": "2016-06-15T12:51:01.066Z",
+      "use_puppet_default": null,
+      "puppetclass_name": {
+        "id": 391,
+        "name": "puppet::server",
+        "created_at": "2015-10-27T09:48:44.652Z",
+        "updated_at": "2015-10-27T09:48:44.652Z"
+      },
+      "parameter": "additional_settings",
+      "id": 3516,
+      "puppetclass_id": 391,
+      "override_values_count": 0
+    }
+  ]
+}
